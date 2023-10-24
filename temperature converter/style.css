@@ -1,0 +1,67 @@
+body {
+    background-color: #dcf6d3f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    background-color: #0074D9;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.converter {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input[type="number"], select {
+    width: calc(50% - 5px);
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+}
+
+button {
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#results {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#results span {
+    margin-left: 5px; /* Add margin to separate number and unit */
+}
+
